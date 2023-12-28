@@ -34,3 +34,6 @@ AMD Ryzen 5 5600G with Radeon Graphics
 RAM: 16.0 GB
 
 All the models were converted to CoreML (*.mlmodel) using "Colab" due to Core ML installation issues on Windows.
+
+Code: ThreeStageEczemaDetection.ipynb
+CoreML convertion: ThreeStageEczemaDetectionToCoreML.ipynb
