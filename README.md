@@ -1,4 +1,4 @@
-# Eczema Detection using three model stages:
+# Eczema Detection using 3 CNN model stages:
 Three stage detection of eczema
 This program uses 3 stages/ models:
 1. Human Skin Detection model : if passed image is of human skin or not
