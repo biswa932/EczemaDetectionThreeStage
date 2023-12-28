@@ -27,3 +27,10 @@ Accuracy:
 1. Human Skin Detection model : Training(loss: 0.0083 - acc: 0.9997), Evaluation(loss: 0.0149 - acc: 0.9949)
 2. Eczema detection model: Training(loss: 0.0116 - acc: 0.9994), Evaluation(loss: 0.0145 - acc: 0.9933)
 3. Eczema classification model: Training(loss: 0.3640 - acc: 0.8998), Evaluation(loss: 0.8092 - acc: 0.6144)
+
+System specification:
+OS: Windows 11
+AMD Ryzen 5 5600G with Radeon Graphics
+RAM: 16.0 GB
+
+All the models were converted to CoreML (*.mlmodel) using "Colab" due to Core ML installation issues on Windows.
