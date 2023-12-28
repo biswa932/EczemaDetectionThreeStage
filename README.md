@@ -6,6 +6,7 @@ This program uses 3 stages/ models:
 3. Eczema classification model: the level of eczema (mild, moderate, severe)
 
 Pre-trained model used: https://www.kaggle.com/models/google/mobilenet-v2/frameworks/TensorFlow2/variations/140-224-feature-vector/versions/2
+
 This pre-trained model "mobilenet-v2" has been retrained using new dataset and a single dense layer for each case.
 
 
