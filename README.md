@@ -33,7 +33,7 @@ The eczema dataset was downloaded from: https://www.kaggle.com/datasets/shubhamg
 2. AMD Ryzen 5 5600G with Radeon Graphics
 3. RAM: 16.0 GB
 
-# All the models were converted to CoreML (*.mlmodel) using "Colab" due to Core ML installation issues on Windows.
+# All the models were converted to CoreML (*.mlmodel) using Colab.
 
 1. Code: ThreeStageEczemaDetection.ipynb
 2. CoreML convertion: ThreeStageEczemaDetectionToCoreML.ipynb
