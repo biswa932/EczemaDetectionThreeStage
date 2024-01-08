@@ -15,23 +15,18 @@ This pre-trained model "mobilenet-v2" has been retrained using new dataset and a
 The eczema dataset was downloaded from: https://www.kaggle.com/datasets/shubhamgoel27/dermnet
 
 # Dataset structure: dataset/eczema_photos
-    1. allSkin: 2428 items
+    1. allSkin: 2612 items
     2. clearSkin: 1204 items
-    3. eczema: 1224 items
+    3. eczema: 1408 items
     4. invalid: 2400 items
-    5. mild: 351
-    6. moderate: 566
-    7. severe: 307
+    5. mild: 393
+    6. moderate: 641
+    7. severe: 373
 
 # Accuracy:
-1. Human Skin Detection model : Training(loss: 0.0083 - acc: 0.9997), Evaluation(loss: 0.0149 - acc: 0.9949)
-2. Eczema detection model: Training(loss: 0.0116 - acc: 0.9994), Evaluation(loss: 0.0145 - acc: 0.9933)
-3. Eczema classification model: Training(loss: 0.3640 - acc: 0.8998), Evaluation(loss: 0.8092 - acc: 0.6144)
-
-# System specification:
-1. OS: Windows 11
-2. AMD Ryzen 5 5600G with Radeon Graphics
-3. RAM: 16.0 GB
+1. Human Skin Detection model : Training(loss: 0.0086 - acc: 0.9995), Evaluation(loss: 0.0225 - acc: 0.9935)
+2. Eczema detection model: Training(loss: 0.0690 - acc: 0.9752), Evaluation(loss: 0.0823 - acc: 0.9674)
+3. Eczema classification model: Training(loss: 0.3653 - acc: 0.9041), Evaluation(loss: 0.7293 - acc: 0.6667)
 
 # All the models were converted to CoreML (*.mlmodel) using Colab.
 
