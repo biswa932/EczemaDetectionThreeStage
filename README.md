@@ -26,7 +26,7 @@ The eczema dataset was downloaded from: https://www.kaggle.com/datasets/shubhamg
 # Accuracy:
 1. Human Skin Detection model : Training(loss: 0.0086 - acc: 0.9995), Evaluation(loss: 0.0225 - acc: 0.9935)
 2. Eczema detection model: Training(loss: 0.0690 - acc: 0.9752), Evaluation(loss: 0.0823 - acc: 0.9674)
-3. Eczema classification model: Training(loss: 0.3653 - acc: 0.9041), Evaluation(loss: 0.7293 - acc: 0.6667)
+3. Eczema classification model: Training(loss: 0.3789 - acc: 0.8927), Evaluation(loss: 0.8193 - acc: 0.6097)
 
 # All the models were converted to CoreML (*.mlmodel) using Colab.
 
